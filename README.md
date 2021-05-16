@@ -1,7 +1,7 @@
 # Pour pouvoir utiliser les librairies SDL2 sur linux voici la commande 
     sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev
 
-# cote serveur 
+# coté serveur 
     # Compilation 
         make ou make build qui correspond a :
             gcc serveur_udp.c -o serveur -lpthread
@@ -15,7 +15,7 @@
             rm serveur
 
 
-# Cote client
+# Coté client
     # Compilation
         make ou make build qui correspond a :
             gcc client_udp.c -o client -lSDL2
