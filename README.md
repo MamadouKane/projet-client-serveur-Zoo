@@ -2,28 +2,28 @@
     sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev
 
 # coté serveur 
-    # Compilation 
+  ## Compilation 
         make ou make build qui correspond a :
             gcc serveur_udp.c -o serveur -lpthread
 
-    # Execution
+   ## Execution
         make run qui correspond a :
             ./serveur 50000
     
-    # Suppression de l'executable
+   ## Suppression de l'executable
         make clean qui correspond a :
             rm serveur
 
 
 # Coté client
-    # Compilation
+   ## Compilation
         make ou make build qui correspond a :
             gcc client_udp.c -o client -lSDL2
 
-    # Execution
+   ## Execution
         make run qui correspond a :
             ./client 127.0.0.1 50000
 
-    # Suppression de l'executable
+   ## Suppression de l'executable
         make clean qui correspond a :
             rm client
